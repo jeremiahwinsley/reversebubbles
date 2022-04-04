@@ -10,6 +10,7 @@ import org.spongepowered.asm.mixin.Overwrite;
 
 import java.util.Random;
 
+@SuppressWarnings({"java:S1118", "java:S1610"})
 @Mixin(SoulSandBlock.class)
 public abstract class MixinSoulSandBlock {
     @Overwrite
