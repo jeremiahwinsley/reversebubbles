@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "net.permutated.reversebubbles.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "reversebubbles.refmap.json",
+  "mixins": [
+    "MixinSoulSandBlock",
+    "MixinMagmaBlock"
+  ],
+  "minVersion": "0.8"
+}
